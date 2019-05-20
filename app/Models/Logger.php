@@ -9,7 +9,7 @@ class Logger extends Model
 {
     protected $connection = 'mongodb';
 
-    protected $collection = 'log';
+    protected $collection = 'logs';
 
     protected $primaryKey = '_id';
 
